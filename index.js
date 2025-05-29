@@ -17,6 +17,6 @@ app.use('/teacher', (req, res) => {
     proxy.web(req, res, { target: 'http://localhost:5001' });
 })
 
-app.listen(4000, () => {
+app.listen(3000, () => {
     console.log("API Gateway Service is running on PORT NO : ", 3000)
 })
